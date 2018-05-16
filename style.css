@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+div.meny ul {
+    display:inline-block;
+    overflow:hidden;
+    list-style-type: none;
+    
+}
+div.meny li {
+    float: left;
+    padding-right: 17px;
+    font-size: 21px;
+    margin: 20px;
+
+}
+div.meny, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: inherit; 
+}
+div.meny a:hover {
+    font-weight: bold;
+}
+div.rubrik {
+    margin: 20px;
+}
+a.delete {
+    color: red;
+}
+a.readmore {
+    color: darkgray;
+}
+a.readmore:hover {
+    text-decoration-line: underline;
+}
+a.delete:hover {
+    text-decoration-line: underline;
+}
